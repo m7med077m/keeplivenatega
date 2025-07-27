@@ -1,0 +1,5 @@
+pandas
+pyrogram
+tgcrypto
+openpyxl
+python-dotenv
