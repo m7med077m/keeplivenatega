@@ -9,7 +9,8 @@ from admin_tools import setup_admin_tools
 from dotenv import load_dotenv
 
 load_dotenv()
-
+from keep_alive import keep_alive
+keep_alive()
 # Bot credentials
 API_ID = int(os.getenv("API_ID"))
 API_HASH = os.getenv("API_HASH")
